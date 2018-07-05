@@ -25,7 +25,6 @@ class usuario
             echo "Falha ao cadastrar usuário: (" . $this->mysqli->errno . ") " . $this->mysqli->error;
             return false;
         }
-        
     }
 
     function __construct(){
